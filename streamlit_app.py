@@ -1,4 +1,12 @@
 import streamlit as st
+import tzlocal
+import pandas as pd
+
+df = pd.DataFrame({'ts': ['2020-04-14 01:00:00']})
+df['ts2'] = pd.to_datetime(df['ts'])
+st.write(df)
+st.write('ts2 is actually:', df.loc[0, 'ts2'])
+st.write(tzlocal.get_localzone())
 
 st.title("Test App!!!")
 
