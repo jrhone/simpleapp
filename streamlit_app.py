@@ -5,6 +5,8 @@ import pandas as pd
 if st.checkbox('checkbox'):
     st.image("foo.jpg")
 
+st.write(st.__version__)
+    
 df = pd.DataFrame({'ts': ['2020-04-14 01:00:00']})
 df['ts2'] = pd.to_datetime(df['ts'])
 st.write(df)
