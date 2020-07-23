@@ -15,6 +15,8 @@ st.write(tzlocal.get_localzone())
 
 st.title("Test App!!!")
 
+st.write("don't mess with the best")
+
 file_obj = st.sidebar.file_uploader('Choose an image:', ('jpg', 'jpeg'))
 
 value = st.slider("Pick a number", 0, 10, 3)
