@@ -2,7 +2,7 @@ import streamlit as st
 import tzlocal
 import pandas as pd
 
-if st.checkbox('checkbox'):
+if st.checkbo('checkbox'):
     st.image("foo.jpg")
 
 st.write(st.__version__)
