@@ -2,6 +2,8 @@ import streamlit as st
 import tzlocal
 import pandas as pd
 
+"argh"
+
 if st.checkbox('checkbox'):
     st.image("foo.jpg")
 
