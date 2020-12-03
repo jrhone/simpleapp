@@ -3,6 +3,7 @@ import tzlocal
 import pandas as pd
 
 "argh"
+"go lakers"
 
 if st.checkbox('checkbox'):
     st.image("foo.jpg")
