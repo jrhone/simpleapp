@@ -4,7 +4,7 @@ import pandas as pd
 
 "argh"
 "go lakers"
-"woo-t"
+"woot"
 
 if st.checkbox('checkbox'):
     st.image("foo.jpg")
