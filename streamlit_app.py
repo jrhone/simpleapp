@@ -3,7 +3,7 @@ import tzlocal
 import pandas as pd
 
 "argh"
-"go lakers yeaapp"
+"go lakers zeeen"
 "woot"
 
 if st.checkbox('checkbox'):
